@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #7f8a88;
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+li {
+    padding-inline: 20px;
+    margin-b
+}
+
