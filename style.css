@@ -34,7 +34,6 @@ body{
 main {
     display: flex;
     justify-content: center;
-    background: green;
 }
 
 main barra-izq {
@@ -68,3 +67,8 @@ main centro h2 {
     }
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #6A687A;
+}
