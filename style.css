@@ -31,4 +31,40 @@ body{
     color: inherit;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    background: green;
+}
+
+main barra-izq {
+    background: white;
+}
+
+main centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+main barra-der {
+    background: white;
+}
+
+main centro h2 {
+    animation: MoveUpDown 2s linear infinite;
+    left:0;
+    bottom: 0;
+}
+
+@keyframes MoveUpDown{
+    0%, 100% {
+        transform: translateY(-100px);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+}
 
