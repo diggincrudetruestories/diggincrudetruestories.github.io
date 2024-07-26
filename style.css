@@ -4,11 +4,11 @@ body{
 }
 
 .header {
-    padding: 60px;
+    padding: 5%;
     text-align: center;
     background: #6A687A;
     color: white;
-    font-size: 20px;
+    font-size: 150%;
 }
 
 .header ul {
@@ -16,13 +16,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-inline: 10%;
     background-color: #3E4C5E;
 }
 
 .header li {
-    padding-inline: 20px;
+    padding-inline: 5%;
     border: 2px solid grey;
 }
 
@@ -32,12 +33,29 @@ body{
 }
 
 main {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #E7DECD;
 }
 
 main barra-izq {
-    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main barra-izq dotd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main barra-izq dotd img {
+    border: 10px solid black;
+
 }
 
 main centro {
@@ -49,7 +67,8 @@ main centro {
 }
 
 main barra-der {
-    background: white;
+    display: flex;
+    flex-direction: column;
 }
 
 main centro h2 {
@@ -70,5 +89,12 @@ main centro h2 {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #6A687A;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    width: 100%;
+    height: 50px;
 }
